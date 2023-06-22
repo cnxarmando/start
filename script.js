@@ -22,7 +22,4 @@ function toggleMode() {
         console.log(img.getAttribute('alt'));
     }
 
-
-
-
 }

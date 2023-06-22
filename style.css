@@ -41,6 +41,7 @@ body {
     */
     /* Shorthand background: color img repeat position/size */
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 }
 
 #container {
@@ -179,4 +180,15 @@ footer a {
     text-decoration: underline;
 }
 
+/* media queries */
 
+@media screen and (min-width: 768px) {
+    :root { 
+        --bg-url: url(./assets/bg-desktop.jpg);
+    }
+
+    .light {
+        --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
+    
+}
